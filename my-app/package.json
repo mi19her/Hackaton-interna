@@ -28,11 +28,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
   },
   "devDependencies": {
     "gulp": "^4.0.2"
->>>>>>> 12b47324745406ff8aba6cff0082b0e23e111ecb
   }
 }
