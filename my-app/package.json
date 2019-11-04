@@ -6,6 +6,8 @@
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-firebase-hooks": "^2.1.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
@@ -28,11 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
   },
   "devDependencies": {
     "gulp": "^4.0.2"
->>>>>>> 12b47324745406ff8aba6cff0082b0e23e111ecb
   }
 }
