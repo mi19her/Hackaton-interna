@@ -11,7 +11,7 @@ export const Login = () =>{
             <form className="flex">
              <input type="text" placeholder= "ingresa tu codigo"/>
              <input type="text" placeholder="ingresa tu contraseña" />
-             <button><Link to="/consultora">INGRESAR</Link></button>             
+             <button><Link to="/consultora">INGRESAR</Link></button>    
             </form>
         </div>
     )

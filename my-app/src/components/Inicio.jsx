@@ -43,9 +43,13 @@ export const Inicio = () =>{
             <ProgressBar/>
             <div className="flex"> 
                 <p>TIENDA VIRTUAL</p>
-                <button className="compart" >COMPARTIR
+                <img src="" alt=""/>
+                <button className="compart" onClick={() => {
+                    
+                }}>
                 <Link to="https://issuu.com/somosbelcorp/docs/lbel.peru.c17.2018?mode=embed"></Link>    
-                </button>
+                <img src="https://img.icons8.com/ios/24/000000/share.png"></img>COMPARTIR
+                </button >
             </div>
          </div>
     )
