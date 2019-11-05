@@ -3,7 +3,7 @@ import '../css/main.css';
 import belcorpImg from '../img/img2.jpeg';
 import belcorSnrs from '../img/img1.jpeg';
 
-      export const Login = () => {
+      export const Bienvenida = () => {
            return (
             <section className="login">
             <div className="imag">
