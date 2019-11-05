@@ -16,21 +16,21 @@ export const RouteHack = () => {
       <Route path="/consultora">
           <Consultora />
         </Route>
-      <Route path="/">
+       <Route path="/">
           <Login/>
         </Route>
         <Route path="/inicio">
           <Inicio />
         </Route>
-        <Route path="/link">
+       <Route path="/link">
           <LinkCatalogo />
         </Route>
         <Route path="/nuevo">
           <NuevoPedido />
         </Route>
-        <Route path="/ciclos">
+       <Route path="/ciclos">
           <Ciclos />
-        </Route>
+        </Route> 
       </Switch>
     </Router>
   );
