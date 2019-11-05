@@ -1,0 +1,22 @@
+
+.log{
+    background: linear-gradient(135deg,#D20B54,#FFB894);
+    height: 40em;
+}
+.login-form{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    height:100% ;
+}
+.inputs{
+    padding: 13px;
+    border: none;
+    border-bottom-style: inset;
+    background: transparent;
+    margin-bottom: 30px;
+    font-size: medium;
+    width: 90%;
+}
+.inputs::placeholder { color: white; font-size: 15px; }
