@@ -3,6 +3,10 @@
     background: linear-gradient(135deg,#D20B54,#FFB894);
     height: 40em;
 }
+.login{
+        
+        height: 100%;
+}
 .login-form{
     width: 100%;
     max-width: 330px;
@@ -11,12 +15,18 @@
     height:100% ;
 }
 .inputs{
-    padding: 13px;
     border: none;
     border-bottom-style: inset;
     background: transparent;
-    margin-bottom: 30px;
-    font-size: medium;
+    font-size: larger;
+    font-weight: 500;
     width: 90%;
 }
 .inputs::placeholder { color: white; font-size: 15px; }
+.imag{
+   display: flex;
+   justify-content: flex-end;
+}
+.color{
+    background-color: #722282;
+}

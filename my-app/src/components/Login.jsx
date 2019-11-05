@@ -1,29 +1,26 @@
 import React from 'react';
 import '../css/main.css'
-import { Button, Form, FormGroup, Col, Image } from 'react-bootstrap';
-import belcorpLogo from '../img/belcorpLogo.png'
+import { Form, FormGroup} from 'react-bootstrap';
+
+
+
 export const Login = () => {
     return (
+         <Form className="login-form">
+         <h2 className="mt-4 mb-5"><span className="text-center"> Ingreso </span></h2>
+        <FormGroup>
+             <label>Código consultora</label>
+            <input className="inputs" type="text" />
+           </FormGroup>
+           <FormGroup>
+           <label>Contraseña</label>
+               <input className="inputs" type="password" placeholder="Contraseña"/>
+       </FormGroup> 
+       <p className="text-right " ><a className="text-dark text-reset" href="#">¿Olvidaste tu contraseña?</a></p>
+        <button className="color btn-lg btn-block text-white">Ingreso</button>
+        <p className="mt-4 text-right">¿No tienes cuenta?  <a className="text-dark text-reset" href="#">Regístrate</a></p>
+      </Form> 
 
-        <div className="log">
-
-            <Form className="login-form">
-                <div className="container">
-                    <Col md={4}>
-                        <Image src={belcorpLogo} rounded />
-                    </Col>
-                </div>
-                <h5><span className="text-center"> ¡Bienvenida a la Compañía de Belleza donde puedes ganar más! </span></h5>
-                <FormGroup>
-                    <input className="inputs" type="text" placeholder="Código" />
-                </FormGroup>
-                <FormGroup>
-                    <input className="inputs" type="password" placeholder="Contraseña"
-                    />
-                </FormGroup>
-                <Button className="btn-lg btn-dark btn-block">Ingresar</Button>
-            </Form>
-
-        </div>
+  
     )
 }
