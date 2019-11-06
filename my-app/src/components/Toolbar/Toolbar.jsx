@@ -13,10 +13,6 @@ export const Toolbar = props => {
     <div className="toolbar_logo"><a href="/"></a></div>
  <div className="spacer"/>
   <div className="toolbar_navigation-items">
-    <ul>
-      <li><a href="/">b</a></li>
-      <li><a href="/">b</a></li>
-    </ul>
   </div>
   </nav>
 </header>

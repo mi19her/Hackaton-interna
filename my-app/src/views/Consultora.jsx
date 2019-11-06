@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Inicio } from "../components/Inicio";
 import { Toolbar } from "../components/Toolbar/Toolbar";
 import Drawer from "../components/SideDrawer/Drawer";
 import Backdrop from "../components/Backdrop/Backdrop";
@@ -10,15 +9,16 @@ import { Premios } from "../components/Premios";
 
 export class Consultora extends Component {
   // const [mostrar, setMostrar] = useState(false)
-  constructor(props) {
-    super(props);
-    this.state = { mostrar: false };
-  }
+//   constructor(props) {
+//     super(props);
+//     this.state = { mostrar: false };
+//   }
   state = {
     DrawerOpen: false,
+    mostrar: false,
   };
   setMostrar = () => {
-    this.setState({ mostrar: false });
+    this.setState({ mostrar: true });
   };
 
   drawerToggleClickHandler = () => {
@@ -47,10 +47,10 @@ export class Consultora extends Component {
           <div className="flex">
             <Inicio
               click={() => {
-                setMostrar(true);
+                this.setMostrar(true);
               }}
             />
-            {mostrar === true ? <RedesSociales /> : null}
+            {this.state.mostrar === true ? <RedesSociales /> : null}
             <h5>GANA MÁS</h5>
             <LinkCatalogo />
             <h5>PREMIOS DEL MES</h5>

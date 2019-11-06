@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/stylos.css";
-import { Header } from "../components/Header";
 import catalogo from "../img/catalogo.jpeg";
 import compartir from "../img/compartir.png";
 
@@ -40,7 +39,6 @@ class ProgressBar extends React.Component {
 export const Inicio = ({ click }) => {
   return (
     <div className="flex">
-      <Header />
       <div className="cat">
         <p>Gana mas puntos para llegar al siguiente Nivel</p>
         <ProgressBar />
