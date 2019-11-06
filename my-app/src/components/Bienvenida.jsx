@@ -2,10 +2,13 @@ import React from 'react';
 import '../css/main.css';
 import belcorpImg from '../img/img2.jpeg';
 import belcorSnrs from '../img/img1.jpeg';
+// import {Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom'
 
       export const Bienvenida = () => {
            return (
-            <section className="login">
+             
+            <div className="login">
             <div className="imag">
               <img className="img"src={belcorpImg} alt=""/>
             </div>
@@ -13,7 +16,8 @@ import belcorSnrs from '../img/img1.jpeg';
               <img src={belcorSnrs} alt=""/>
             
             </div>
-             </section> 
+            <button><Link to="/login">Next</Link></button>
+             </div> 
            )
       }
  
