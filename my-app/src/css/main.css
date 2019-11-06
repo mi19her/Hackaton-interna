@@ -30,3 +30,6 @@
 .color{
     background-color: #722282;
 }
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+    }

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import'../css/stylos.css'
-import {Header} from '../components/Header';
 
 
 class ProgressBar extends React.Component {
@@ -38,7 +37,6 @@ export const Inicio = () =>{
 
     return(
         <div className="flex">
-            <Header/>
             <p>Gana mas puntos para llegar al siguiente Nivel</p>
             <ProgressBar/>
             <div className="flex"> 
