@@ -1,21 +1,42 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../css/stylos.css';
+import React from "react";
+import { FaBars } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
+
+import { Link } from "react-router-dom";
+
+import { ResponsiveMenu } from "bootstrap";
 
 export const Header = () => {
   return (
-    <header className='header'>
-      <h1>Hola Sara</h1>
-      <nav>
+    <div>
+      <ResponsiveMenu
+        menuOpenButton={<FaBars size={30} color="MediumPurple" />}
+        menuCloseButton={<IoMdClose size={30} color="MediumPurple" />}
+        changeMenuOn="500px"
+        largeMenuClassName="large-menu-classname"
+        smallMenuClassName="small-menu-classname"
+        menu={
           <ul>
-              <li><Link to="/inicio">Inicio</Link></li>
-              <li><Link to="/link">Mi cuenta</Link></li>
-              <li><Link to="/nuevo">Mis pedidos</Link></li>
-              <li><Link to="/ciclos">Mis puntos</Link></li>
-              <li>Configuracion</li>
-
+            <li>
+              <Link to={"/"} className="nav-link">
+                A
+              </Link>
+            </li>
+            <li>
+              <Link to={"/"} className="nav-link">
+                A
+              </Link>
+            </li>
+            <li>
+              <Link to={"/"} className="nav-link">
+                A
+              </Link>
+            </li>
           </ul>
-      </nav>
-    </header>
+        }
+      />
+    </div>
   );
 };
+
+//};

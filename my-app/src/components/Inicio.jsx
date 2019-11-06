@@ -30,7 +30,7 @@ class ProgressBar extends React.Component {
           <div className="bar" style={progress}>
             <span className="color"></span>
           </div>
-          <p>{this.state.progress + "00"}</p>        
+          <p>{this.state.progress + "00"}</p>
         </div>
         {/* <button onClick={ this.clickHandler.bind(this) }>+</button> */}
       </div>
