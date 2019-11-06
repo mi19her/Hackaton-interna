@@ -8,6 +8,7 @@ import gmail from "../img/google-plus.png";
 export const RedesSociales = () => {
   return (
     <div className="redSocial">
+      <input className="input3" type="text" id="link" value="https://ayauri29.github.io/hackaton-users/" />
       <a href="https://web.whatsapp.com/">
         <img className="redes" src={wt} alt="whatsapp"></img>
       </a>
@@ -17,10 +18,9 @@ export const RedesSociales = () => {
           src={facebook}
           alt="facebook"
           onClick={() => {
-            const link =
-              "https://es.stackoverflow.com/questions/621/copiar-el-contenido-de-un-elemento-al-portapapeles-usando-javascript";
+            const link = document.getElementById("link")
             link.select();
-            document.execCommand("copy");
+            document.execCommand("copy")
             console.log(document.execCommand("copy"));
           }}
         ></img>

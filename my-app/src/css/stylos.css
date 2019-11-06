@@ -1,13 +1,10 @@
 /* Dashboard */
-<<<<<<< HEAD
-=======
 html{
   height: 100%;
 }
 body{
   height: 100%;
 }
->>>>>>> d664b4c784d0ae9c6e7f5badf7c1fbccf53768b5
 .dash{
     height: 100vh;
     display: flex;   
@@ -117,4 +114,8 @@ h5{
 }
 .modal-close:hover {
   color: black;
+}
+
+.input3{
+  border: none;
 }
