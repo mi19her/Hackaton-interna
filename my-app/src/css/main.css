@@ -33,3 +33,18 @@
 .navbar.navbar-1 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
     }
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes{
+    width: 100px;
+    height: 100px;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+.buton{
+    background: transparent;
+}

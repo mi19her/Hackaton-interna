@@ -2,7 +2,7 @@ import React from 'react';
 import'../css/stylos.css'
 
 
-export const LinkCatalogo = () =>{
+export const Ciclos = () =>{
 
     return(
         <div>
