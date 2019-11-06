@@ -13,7 +13,8 @@ import {Link} from 'react-router-dom'
               <img className="img"src={belcorpImg} alt=""/>
             </div>
             <div>
-              <img src={belcorSnrs} alt=""/>           
+              <img src={belcorSnrs} alt=""/>
+            
             </div>
             <button><Link to="/login">Next</Link></button>
              </div> 
